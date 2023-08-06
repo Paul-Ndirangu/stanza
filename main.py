@@ -95,15 +95,23 @@ async def parse_constituency_parser(text_input: str, pressure_index: int):
     global parsed_cons_tree
     
     parsed_cons_tree = nlp(text_input).sentences[0].constituency
+    
+    depth = parsed_cons_tree.depth()
+    pressure_value = int((pressure_index/100)*depth)
+    
+    
     # const_parse_tree = constituency_parser(parsed_cons_tree)
     
     parse_tree_str = str(parsed_cons_tree).replace(" ", ",")
     tree_parsed = parse_tree_fn(parse_tree_str)
     
     all_branches = get_branches(tree_parsed[-1])
-    res = get_return_results(pressure_index, all_branches)
+    res = get_return_results(pressure_value, all_branches)
     
     return {
+        "pressure_index": pressure_index,
+        "depth": depth,
+        "pressure_value": pressure_value,
         "result": res
     }
 
