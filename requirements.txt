@@ -312,7 +312,7 @@ ubuntu-advantage-tools==8001
 ubuntu-drivers-common==0.0.0
 ufw==0.36.1
 unattended-upgrades==0.1
-urllib3==1.26.16
+urllib3==1.26.17
 usb-creator==0.3.7
 uvicorn==0.21.1
 vine==5.0.0
