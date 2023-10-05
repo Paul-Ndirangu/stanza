@@ -92,7 +92,7 @@ future==0.18.3
 gdown==4.7.1
 girder-client==3.1.17
 gitdb==4.0.10
-GitPython==3.1.31
+GitPython==3.1.35
 google-auth==2.21.0
 google-auth-oauthlib==1.0.0
 gptcache==0.1.35
