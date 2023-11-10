@@ -13,7 +13,7 @@ appdirs==1.4.4
 apturl==0.5.2
 asgiref==3.7.2
 async-timeout==4.0.2
-asyncssh==2.13.2
+asyncssh==2.14.1
 atpublic==4.0
 attrs==23.1.0
 bcrypt==4.0.1
