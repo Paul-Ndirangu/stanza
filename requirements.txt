@@ -150,7 +150,7 @@ marshmallow==3.19.0
 marshmallow-enum==1.5.1
 matplotlib==3.7.1
 mdurl==0.1.2
-mlflow==2.8.1
+mlflow==2.9.1
 monai==1.2.0
 monailabel==0.7.0
 monotonic==1.6
