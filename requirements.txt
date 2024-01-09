@@ -84,7 +84,7 @@ Flask==2.3.2
 Flask-Cors==3.0.10
 flatten-dict==0.4.2
 flufl.lock==7.1.1
-fonttools==4.40.0
+fonttools==4.43.0
 frozenlist==1.3.3
 fsspec==2023.6.0
 funcy==2.0
