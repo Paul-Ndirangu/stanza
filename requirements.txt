@@ -239,7 +239,7 @@ python-debian==0.1.43+ubuntu1.1
 python-docx==0.8.11
 python-dotenv==1.0.0
 python-jose==3.3.0
-python-multipart==0.0.6
+python-multipart==0.0.7
 pytorch-ignite==0.4.11
 pytz==2022.1
 PyWavelets==1.4.1
