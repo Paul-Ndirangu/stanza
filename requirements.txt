@@ -41,7 +41,7 @@ command-not-found==0.3
 configobj==5.0.8
 contourpy==1.1.0
 crashtest==0.4.1
-cryptography==42.0.0
+cryptography==42.0.4
 cupshelpers==1.0
 cycler==0.11.0
 databricks-cli==0.17.7
