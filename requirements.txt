@@ -196,7 +196,7 @@ pathspec==0.11.1
 pdfminer.six==20221105
 pdfplumber==0.9.0
 pexpect==4.8.0
-Pillow==10.2.0
+Pillow==10.3.0
 pkginfo==1.9.6
 platformdirs==3.8.0
 poetry==1.5.1
